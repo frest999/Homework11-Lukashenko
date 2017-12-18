@@ -1,0 +1,36 @@
+@media (max-width: 900px){
+ .links-list{
+   width: 32%;
+   text-align: center;
+ }
+}
+
+@media (max-width: 770px){
+  .footer-banner{
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-block{
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 600px){
+  .links-list{
+    width: 50%;
+  }
+}
+@media (max-width: 450px){
+  .bottom-footer-info{
+    flex-direction: column;
+  }
+}
+@media (max-width: 350px){
+  .soc-media{
+    li{
+      margin-right: 40px;
+    }
+  }
+}
+

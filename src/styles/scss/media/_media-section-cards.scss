@@ -1,0 +1,16 @@
+@media (max-width: 1230px){
+  .cards-block{
+    li{
+      width: 50%;
+      margin: 0;
+    }
+  }
+
+}
+@media (max-width: 780px){
+  .cards-block{
+    li{
+      width: 100%;
+    }
+  }
+}

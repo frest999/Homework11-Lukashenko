@@ -1,0 +1,47 @@
+.light-text{
+  color: $light-text;
+}
+
+.dark-text{
+  color: $dark-text;
+}
+
+.bottom-footer-text{
+  font-family: $brand-font;
+  font-size: $footer-text;
+  color: #777;
+  margin-bottom: 0;
+  margin-right: 30px;
+}
+
+.price-goods{
+  position: absolute;
+  margin-left: 10px;
+  color: #9a9a9a;
+  font-size: 1.35rem;
+  &:before{
+    font-family: FontAwesome;
+    content: "\f154";
+    font-size: .8rem;
+    margin-right: 5px;
+    vertical-align: top;
+  }
+}
+.old-price{
+  text-decoration: line-through;
+}
+.new-price{
+  margin-left: 80px;
+}
+
+.title-goods, .text-goods{
+  font-size: .7rem;
+  text-align: center;
+  line-height: 2;
+
+}
+
+.title-goods{
+  text-transform: uppercase;
+  font-weight: bold;
+}

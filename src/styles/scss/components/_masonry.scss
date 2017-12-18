@@ -1,0 +1,53 @@
+.element-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 90%;
+  &:hover .info-goods-hover{
+  display: block;
+  }
+  img{
+    width: 100%;
+  }
+}
+.persent-size {
+  width: 25%
+}
+
+.info-goods-hover{
+  position: absolute;
+  width: 93%;
+  padding: 10px;
+  display: none;
+  border-top: 1px solid #ededed;
+  background-color: #fff;
+}
+
+.goods-btn-block{
+  li{
+    margin-right: 10px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+
+.img5{
+  &:hover .info-goods-hover{
+    display: block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  &:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+}
+
+.thumb-img{
+  width: 20%!important;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.thumb-back{
+  top: 110px;
+}

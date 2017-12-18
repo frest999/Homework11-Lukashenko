@@ -1,0 +1,18 @@
+.main-header{
+  background-color: $brand-color-1;
+}
+
+.welcome-section{
+  height: calc(100vh - 40px);
+  width: 100%;
+  background: url(../../images/photo.png) no-repeat center top;
+  background-size: cover;
+}
+
+.top-footer-bg{
+  background-color: $top-footer-bg;
+}
+
+.bottom-footer-bg{
+  background-color: $brand-color-1;
+}

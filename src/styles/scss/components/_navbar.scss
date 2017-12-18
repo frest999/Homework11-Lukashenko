@@ -1,0 +1,138 @@
+.nav-block{
+  display: flex;
+  justify-content: space-between;
+  li{
+    margin-right: 40px;
+    &:last-child{
+      margin-right: 0;
+    }
+    a{
+      font-family: $brand-font;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: $dark-text;
+      font-size: $nav-size;
+      &:hover{
+        text-decoration: none;
+        color: $brand-color-2;
+      }
+    }
+  }
+}
+
+.nav-arrow-js{
+  &:after{
+    font-family: FontAwesome;
+    content: "\f078";
+    font-size: $header-btn-size - .2rem;
+    margin-right: 10px;
+    display: block;
+  }
+}
+
+.clothes-block{
+  padding: 30px 20px;
+  position: absolute;
+  width: 400px;
+  max-width: 100%;
+  height:470px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.nav-fade-mens, .nav-fade-brands, .nav-fade-womens{
+  display: none;
+}
+
+.nav-fade-list{
+  float: left;
+  margin-right: 80px;
+  h2{
+    text-transform: uppercase;
+    font-family: $brand-font;
+    font-size: $nav-size;
+    font-weight: bold;
+  }
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.list-item-nav{
+  li{
+    a{
+      font-family: $brand-font;
+      line-height: 2;
+      color: $dark-text;
+      font-size: $nav-size;
+    }
+  }
+
+}
+
+.sale-block{
+  width: 100%;
+  background-color: $brand-color-1;
+  text-align: center;
+  p{
+    font-size: $sale-nav-size;
+    padding: 50px;
+    text-transform: uppercase;
+    color: $light-text;
+    font-family: $brand-font;
+  }
+}
+
+.nav-goods{
+  display: flex;
+  li{
+    margin-right: 50px;
+    a{
+      font-family: $brand-font;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: $dark-text;
+      font-size: $nav-size;
+      &:hover{
+        text-decoration: none;
+        color: $brand-color-2;
+      }
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+
+.nav-mobile{
+  background-color: #ededed;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  width: 150px;
+  float: left;
+  display: none;
+  li{
+    padding: 10px 0;
+    border-bottom: 1px solid #c4c4c4;
+  }
+  a{
+    color: $dark-text;
+  }
+}
+
+.filtres-list{
+  display: none;
+  margin-left: 40%;
+  li{
+    padding: 10px 0;
+  }
+  a{
+    font-family: $brand-font;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $dark-text;
+    font-size: $nav-size;
+  }
+}

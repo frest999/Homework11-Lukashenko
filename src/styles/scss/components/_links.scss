@@ -1,0 +1,12 @@
+.header-links{
+  font-family: $header-font;
+  color: $top-header-color;
+  font-size: $header-link-size;
+  &:hover{
+    color: $light-text;
+    text-decoration: none;
+    -moz-transition: all .75s ease-out;
+    -o-transition: all .75s ease-out;
+    -webkit-transition: all .75s ease-out;
+  }
+}

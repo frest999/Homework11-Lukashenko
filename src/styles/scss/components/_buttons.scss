@@ -1,0 +1,116 @@
+.btns{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: $brand-font;
+  color: $top-header-color;
+  padding: 0;
+  margin: 0;
+  &-view{
+    border: 2px solid $dark-text;
+    color: $dark-text;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: .8125rem;
+    &:hover{
+      border: 2px solid $brand-color-2;
+      background-color: $brand-color-2;
+      color: $light-text;
+    }
+  }
+  &-arrow{
+    font-size: $header-btn-size;
+    &:after{
+     font-family: FontAwesome;
+     content: "\f078";
+      margin-left: 5px;
+      font-size: $header-btn-size - .15rem;
+      vertical-align: middle;
+    }
+    &-bg{
+      background-color: $brand-color-2;
+      color: $light-text;
+      width: 150px;
+      max-width: 100%;
+      height: inherit;
+      &:before{
+        font-family: FontAwesome;
+        content: "\f07a";
+        font-size: $header-btn-size + .15rem;
+        margin-right: 10px;
+      }
+    }
+
+    &:hover{
+      -moz-transition: all .75s ease-out;
+      -o-transition: all .75s ease-out;
+      -webkit-transition: all .75s ease-out;
+      color: $light-text;
+    }
+  }
+  &-goods{
+    @include border-radius(50%);
+    background-color: $brand-color-1;
+    padding: 5px 10px;
+    color: $light-text;
+    cursor: pointer;
+    &:hover{
+      background-color: $brand-color-2;
+    }
+    &-heart{
+      &:before{
+        font-family: FontAwesome;
+        content: "\f08a";
+        font-size: 1.2rem;
+        vertical-align: middle;
+        text-align: center;
+      }
+    }
+    &-shopping{
+      &:before{
+        font-family: FontAwesome;
+        content: "\f07a";
+        font-size: 1.2rem;
+        vertical-align: middle;
+        text-align: center;
+      }
+    }
+    &-compress{
+     &:before{
+       font-family: FontAwesome;
+       content: "\f066";
+       font-size: 1.2rem;
+       vertical-align: middle;
+       text-align: center;
+     }
+    }
+  }
+  &-mob{
+    display: none;
+    &:before{
+      vertical-align: top;
+      font-family: FontAwesome;
+      content: "\f0c9";
+      font-size: 2rem;
+      color: #000;
+    }
+  }
+  &-filter{
+    background-color: $brand-color-2;
+    border-radius: 10px;
+    color: $light-text;
+    padding: 5px 50px;
+    display: none;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+  }
+}
+
+.collection-btn-block{
+  max-width: 63%;
+  float: right;
+  margin-top: -8%;
+  margin-right: 20%;
+  background-color: #fff;
+}

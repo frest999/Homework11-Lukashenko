@@ -1,0 +1,44 @@
+.cards-block{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  li{
+    width: 32%;
+    padding: 80px 30px;
+  }
+}
+
+.info-card{
+  text-align: right;
+  h3,h4{
+    font-family: $brand-font;
+    text-transform: uppercase;
+    color: $dark-text;
+    font-size: 1.3rem;
+  }
+  h3{
+    font-weight: bold;
+  }
+  p{
+    font-family: $brand-font;
+    color: $dark-text;
+    font-size: .8125rem;
+    padding-left: 50%;
+  }
+}
+
+.mens-look-bg{
+  background: url("../../images/img1-lookbook.png") no-repeat;
+  background-size: cover;
+}
+
+.womens-look-bg{
+  background: url("../../images/img2-lookbook.png") no-repeat;
+  background-size: cover;
+}
+
+.your-look-bg{
+  background: url("../../images/img3-lookbook.png") no-repeat;
+  background-size: cover;
+}

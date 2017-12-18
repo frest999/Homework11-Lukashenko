@@ -1,0 +1,27 @@
+*{
+  outline: none!important;
+  box-sizing: border-box;
+}
+
+.content{
+  width: $content-width;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.masonry-content{
+  width: $masonry-width;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.opacity-1{
+  opacity: 1!important;
+}
+
+.goods-block{
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  padding: 40px 0;
+}

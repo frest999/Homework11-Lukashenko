@@ -1,0 +1,21 @@
+.soc-media{
+  background-color: $brand-color-2;
+  height: 100%;
+  .fa{
+    font-size: 2rem;
+  }
+  li{
+    margin-right: 60px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  a{
+    color: $light-text;
+    &:hover{
+      text-decoration: none;
+      color: $brand-color-1;
+
+    }
+  }
+}
